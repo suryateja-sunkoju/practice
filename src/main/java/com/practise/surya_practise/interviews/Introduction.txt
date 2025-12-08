@@ -1,0 +1,71 @@
+//momi merge accounts injection for nurse app to OCR payments for order & inventory with billing
+
+Good morning/afternoon [Interviewer's Name/Team]
+and Hi
+As you know my name is suryateja. I am Java Developer with around 3 years
+in building scalable microservices architectures and performance-optimized applications,
+in healthcare domain. Currently, I'm working as a Software Development Engineer at Valeo Wellbeing Technologies in Bangalore.
+
+
+Let me explain some of the important features that I worked on:
+In our company we used to have monolithic system and it would lead to more time consuming deployements
+, frequent prod bugs and a blocker for scalability. So, we have to split this into microservices.
+How we did this is, first listed all the tables schema, then we discussed on how many microservices has to be built based on our traffic and finalised to create 3 microservices: user, catalog, order
+Then we segragated tables according to each microservice and developed APIs for those tables.
+
+I implemented SEO feature where I combined seo data of multiple tables into single table and implemented data migration for that.
+I implemented authentication feature in website & app with google, apple, email-password options.
+• Integrated Paymob for payments, Freshsales for CRM, Unicommerce for inventory & order management
+and Zoho Books for billing automation
+• Built Nurse app backend with Google Maps real-time ETA + OTP — improved nurse
+efficiency 60%
+• Detected and blocked active abuse of search APIs (150 GB/day Elasticsearch egress);
+implemented IP filtering, mandatory headers, rate limiting, payload validation and prepared
+statements — fully stopped the exploit
+• Engineered OCR pipeline (Spring Boot + Tesseract) for 8 labs — eliminated 80% manual
+data entry
+
+• Recently, I worked on feature called merge accounts. In which a user having multiple accounts requests to keep only single account and move all orders, reports, results data to primary account.
+This will be requested to Customer Support team & they do it from our admin panel.
+Since there are many db updations in many tables to complete this API, I implemented it in asynchronous way.
+Once we send in progress status to Frontend then in backend I created a multiple threads to start db updation in entities to process some of them to run in parallel and others in sequential
+Overall I should achieve consistent database state even if some db updation failed for one entity.
+In case of failures, I roll backed all other updations that are completed. S
+
+
+Prior to this, I did an internship at IIT Bombay as Java Microservcies Intern
+where I built User microservice with authentication and Role Based Access Control.
+
+
+
+===============================================
+
+### 🎤 **2-Minute STAR-Based Version**
+
+Good morning/afternoon!
+I’m **Suryateja**, a **Java Developer** with around **3 years of experience** in building scalable microservices and performance-optimized applications in the **healthcare domain**.
+I currently work as a **Software Development Engineer** at **Valeo Wellbeing Technologies** in Bangalore.
+
+One of my key projects was **migrating our monolithic application to microservices**.
+Initially, deployments were slow and caused frequent production issues.
+To solve this, our team analyzed the database schema and split the system into **User, Catalog, and Order services**.
+I was responsible for segregating tables, creating APIs, and setting up inter-service communication.
+This change made our system much more **scalable**, **fault-tolerant**, and **easier to deploy**.
+
+Another major project I handled was the **Merge Accounts feature**.
+The goal was to merge data from multiple user accounts into a single one without data loss.
+I built an **asynchronous API** using **multithreading** in Spring Boot — some updates ran in parallel, others sequentially, with rollback handling for failures.
+This ensured **data consistency** and eliminated manual work for the support team.
+
+I also worked on improving **security and automation** —
+I mitigated a **SQL injection attack** on our search API by implementing payload validation, IP filtering, and prepared statements, which fully stopped the exploit.
+Additionally, I built an **OCR pipeline** using **Spring Boot and Tesseract** to extract data from lab PDFs, cutting **80% of manual entry**.
+
+Before this, I interned at **IIT Bombay**, where I built a **User Microservice** with authentication and **Role-Based Access Control** using custom annotations — a great foundation for secure microservice design.
+
+Overall, my experience has strengthened my skills in **Java, Spring Boot, Microservices, API integrations, and system performance optimization**, and I’m now looking to take on challenging backend or full-stack roles that focus on scalability and clean architecture.
+
+---
+
+Would you like me to make an even **shorter 1-minute version** (for HR or first-round introductions)?
+That version highlights your profile and 1–2 best projects — perfect for quick introductions.
